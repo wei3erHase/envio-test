@@ -1,0 +1,9 @@
+type safeModification @entity {
+  id: ID!
+  cType: String!
+  safe: String!
+  collateralSource: String!
+  debtDestination: String!
+  deltaCollateral: BigInt!
+  deltaDebt: BigInt!
+}
