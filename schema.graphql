@@ -1,4 +1,4 @@
-type safeModification @entity {
+type Safemodification @entity {
   id: ID!
   cType: String!
   safe: String!

@@ -6,7 +6,7 @@ SAFEEngineContract_ModifySAFECollateralization_handler(({event, context}) => {
     console.log(event);
     console.log(context);
 
-    context.safeModification.set({
+    context.safemodification.set({
         id: event.blockHash.toString(),
         cType: event.params._cType.toString(),
         safe: event.params._safe.toString(),
